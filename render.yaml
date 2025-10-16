@@ -1,0 +1,15 @@
+
+services:
+  - type: web
+    name: nuri-piknik-online
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -k eventlet -w 1 app.server:app
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: MAX_USERS
+        value: "10"
+      - key: SECRET_KEY
+        generateValue: true

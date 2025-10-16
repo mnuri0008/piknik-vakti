@@ -1,0 +1,40 @@
+{
+  "users": [],
+  "items": [
+    {
+      "id": 1,
+      "title": "Tavuk Kanat",
+      "category": "Yiyecek",
+      "amount": 2.5,
+      "unit": "kg",
+      "who": "Asen",
+      "status": "brought"
+    },
+    {
+      "id": 2,
+      "title": "Kola",
+      "category": "İçecek",
+      "amount": 3,
+      "unit": "lt",
+      "who": "Rado",
+      "status": "claimed"
+    },
+    {
+      "id": 3,
+      "title": "Karabiber",
+      "category": "Baharat",
+      "amount": 0.1,
+      "unit": "kg",
+      "who": "",
+      "status": "needed"
+    }
+  ],
+  "seq": 4,
+  "categories": [
+    "Yiyecek",
+    "İçecek",
+    "Baharat",
+    "Tatlı",
+    "Araç-gereç"
+  ]
+}
